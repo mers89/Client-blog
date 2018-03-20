@@ -1,0 +1,435 @@
+
+/* site margins/padding */
+
+* {
+	margin: 0 auto;
+  color: #deccaa;
+}
+
+header, nav, main, footer {
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	min-width: 1000px;
+}
+
+.header, .nav-format, .beige-main, .blue-footer, .gray-footer {
+	margin: 0 auto;
+	width: auto;
+	max-width: 1020px;
+}
+
+/* end site margins/padding */
+
+/*fonts*/
+.cantarell {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+  color:#deccaa;
+
+}
+
+.lato{
+ font-family: 'Lato', sans-serif;
+ font-size: 15px;
+ color: #deccaa;
+}
+
+.italic{
+ font-size: 10.5px;
+  font-style: italic;
+  color: #deccaa;
+}
+
+/*End Fonts*/
+
+/*logo*/
+.logo{
+    display: block;
+    text-align: center;
+}
+/*end logo*/
+
+/*navbar*/
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+/*navbar/ 
+
+
+/* blue header */
+
+header {
+    background-color: #3da2b4 ;
+  padding: 0px;
+}
+
+
+/* gray nav with links */
+
+nav {
+	background: #40312a;
+	border-top: 1px solid #deccaa;
+}
+
+.nav-format {
+	padding: 16px 36px 15px 34px;
+}
+
+.grid-nav, .grid-nav .grid-form, .search-form  {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grid-nav {
+	width: 65%;
+}
+
+.grid-form {
+	width: 30%;
+	text-align: right;
+}
+
+.nav-format ul {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 0;
+}
+
+.links_navbar, .label {
+	display: inline-block;
+	vertical-align: top;
+	font-family: Candara;
+	font-size: 18px;
+	letter-spacing: 1px;
+  padding: 0px 5px 0px 5px;
+  border-right: 2px solid #deccaa;
+}
+
+nav a {
+	font-family: Candara;
+	font-size: 18px;
+	letter-spacing: 1px;
+	transition: 0.2s linear;
+	color: #ffffff;
+}
+
+nav a:hover {
+	text-shadow: 0 -1px #322620;
+	color: #2c8897;
+}
+
+
+.nav-format form {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.label {
+	margin: 2px 8px 0 0;
+	font-weight: 700;
+	text-shadow: 0 -1px #31251f;
+	cursor: pointer;
+  color: #ffffff
+}
+
+.label:hover {
+	text-shadow: 0 0 15px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #31251f, 0 0 35px #31251f, 0 0 40px #31251f, 0 0 50px #31251f, 0 0 75px #31251f;
+}
+
+.form-1 {
+	padding: 0 27px 0 3px;
+	width: 191px;
+	height: 27px;
+	border: 0;
+	outline: 0;
+	resize: none;
+	overflow: hidden;
+	border-radius: 5px;
+	line-height: 18px;
+	font-family: Verdana;
+	font-style: italic;
+	font-size: 12px;
+	color: #bebebe;
+	background: url(http://i.cubeupload.com/VWTz2S.png);
+}
+/*Search icon*/
+.nav-format button {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 18px;
+	height: 16px;
+	background: url(http://i.cubeupload.com/VYqoib.png);
+}
+
+.nav-format button:hover {
+	background-position: 18px 0;
+}
+/*search icon end*/
+
+/* main */
+
+.main-format {
+	background: #deccaa;
+}
+
+.beige-main{
+	padding: 50px 0px 39px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.gray-main {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 40px 0 40px;
+	width: 100%;
+	min-width: 950px;
+	background: #40312a;
+	border-radius: 5px;
+}
+
+.main-text {
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+
+.main-text h1 {
+	padding: 7px 0 0 2px;
+	font-family: Cambria;
+	font-size: 24px;
+	font-weight: 700;
+	text-shadow: 0 -1px #1d1713;
+	letter-spacing: 2.3px;
+}
+
+.main-text p {
+	padding: 3px 0 0 0px;
+	width: 520px;
+	line-height: 18px;
+	font-family: Verdana;
+	font-size: 12px;
+ color: #deccaa;;
+}
+
+
+/* SECTION 2 */
+
+.section-blog-aside {
+	background: transparent;
+}
+
+.blog {
+	display: inline-block;
+	vertical-align: top;
+	padding: 46px 50px 49px 34px;
+	width: 62.25%;
+	background: transparent;
+		
+}
+
+
+
+
+.blog p {
+	margin: 10px 36px 0 0;
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 18px;
+	color: #deccaa;
+}
+
+aside {
+	display: inline-block;
+	vertical-align: top;
+	padding: 50px 34px 50px 40px;
+	width: 37.75%;
+	background: transparent;
+  
+}
+
+aside .container {
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	margin: 0 auto;
+	max-width: 310px;
+	border-radius: 5px;
+}
+
+/*text on right side*/
+
+.container p {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #deccaa ;
+	line-height: 18px;
+}
+
+/****text right end*****/
+
+
+
+/* 3 divs footer */
+.gray-footer {
+	background: linear-gradient(to bottom, #3a2c25, #40312a);
+	border-top: 2px groove #b2988d;
+}
+
+
+.gray-footer h2 {
+	font-family: Cambria Math;
+	font-size: 22px;
+	line-height: 1;
+	letter-spacing: 1.6px;
+	color: #2d8c9b;
+}
+/* footer */
+
+footer {
+	background: url(http://i.cubeupload.com/48Is5Y.png),
+				linear-gradient(to bottom, #2f92a2, #247184);
+	border-top: 1px solid #38a4b6;
+}
+
+.blue-footer {
+	padding: 24px 35px 28px 36px;
+}
+
+
+
+/*Social Media links*/
+.socialIcons {
+  font-size: 100px;
+  li {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 1px;
+   
+    a {
+      color: #000;
+      display: block;
+      width: 30px;
+      height: 15px;
+      &:hover {
+        color: #fff;
+      }
+     
+      &.fb:hover {
+        background:  #deccaa;
+      }
+      &.twitter:hover {
+        background: #000;
+      }
+      &.google:hover {
+        background: #000;
+      }
+      &.linkedin:hover {
+        background: #000;
+      }
+      &.pinterest:hover {
+        background: #000;
+      }
+      &.youtube:hover {
+        background: #000;
+      }
+    }
+  }
+}
+
+
+/*End Social Media links*/
+
+
+/*Blockquote*/
+
+blockquote{
+  font-size: 1.4em;
+  width:80%;
+  margin:0px auto;
+  font-family:lato, Open Sans;
+  font-style:italic;
+  color: #deccaa;
+  padding:1.2em 30px 1.2em 75px;
+  line-height:1.6;
+  position: relative;
+  
+}
+
+blockquote::before{
+  font-family:Georgia;
+  content: "\201C";
+  color: #deccaa;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#deccaa;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+/*End blockquote*/
+
+
+
+
+/*diagonal line */
+hr {
+  border: 0;
+ width: 225px;
+background-color: #deccaa;
+height: 3px;
+}
+/*end diagonal line*/
+/*Flex Container*/
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-container>div {
+  margin: 0px 40px;
+  font-size: 15px;
+  	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.content-padding {
+    padding: 0px 25px 0px 25px;
+}
+.social-padding {
+    padding: 0px 60px 0px 60px;
+}
+.aside-padding {
+   padding: 0px 0px 0px 0px;
+}
+
+figcaption {
+  color: #deccaa;
+}
